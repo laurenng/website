@@ -98,7 +98,7 @@ https://stackoverflow.com/questions/90178/make-a-div-fill-the-height-of-the-rema
   display: flex;
   flex-flow: column;
   height: 100%;
-  background: url(bridge.jpg) no-repeat center center fixed;
+  background: url("background.jpg")center center fixed;
 }
 
 #me .row.content {
@@ -164,7 +164,7 @@ hr {
   margin-bottom: 20px;
 }
 .box {
-  background-color: pink;
+  background-color: white;
   width: 80%;
   margin: auto;
 }
@@ -174,14 +174,26 @@ hr {
   color: black;
 }
 
-#profile >div {
+#profile > div {
   margin-left: 5px;
 }
+
 div > img {
   display: block;
   padding-top: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#columns {
+  display: flex;
+  justify-content: center;
+  margin: 7%;
+  align-items: center;
+}
+
+#columns > div {
+  width: 400px;
 }
 
 main {
