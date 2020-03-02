@@ -2,9 +2,9 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  color: black;
+  color: white;
   font-size: 20px;
-  background-color: white;
+  background-color: black;
   margin: 0;
 }
 
@@ -164,14 +164,12 @@ hr {
   margin-bottom: 20px;
 }
 .box {
-  background-color: white;
   width: 80%;
   margin: auto;
 }
 
 .box h1 {
   text-align: center;
-  color: black;
 }
 
 #profile > div {
@@ -188,8 +186,10 @@ div > img {
 #columns {
   display: flex;
   justify-content: center;
-  margin: 7%;
-  align-items: center;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: top;
 }
 
 #columns > div {
@@ -224,4 +224,19 @@ footer {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   box-sizing: border-box;
+}
+
+.project {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #888888;
+  box-shadow: 5px 5px #888888;
+  margin: 10px;
+  text-align: center;
+}
+
+.project > img {
+  padding: 0px;
+  width: 100%;
+  height: auto;
 }
